@@ -41,6 +41,15 @@
 
 #define LOG_LEVEL_APP LOG_LEVEL_DBG
 
+
+#define COAP_DTLS_PSK_DEFAULT_IDENTITY "user"
+#define COAP_DTLS_PSK_DEFAULT_KEY      "password"
+#define COAP_DTLS_KEYSTORE_CONF_WITH_SIMPLE 1
+
+#define NETSTACK_MAX_ROUTE_ENTRIES 1
+#define NBR_TABLE_CONF_MAX_NEIGHBORS 1
+#define UIP_CONF_UDP_CONNS 2
+
 /* Enable client-side support for COAP observe */
 #define COAP_OBSERVE_CLIENT            1
 
